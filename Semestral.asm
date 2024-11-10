@@ -1,6 +1,6 @@
 .data
-    msg: .asciiz "Insira um número decimal para ser convertido: "
-    msg1: .asciiz "Valor em octal: "
+    msg: .asciiz "Enter a decimal number to be converted: "
+    msg1: .asciiz "Value in octal: "
 .text
 loop:
     li $s7, 8  
